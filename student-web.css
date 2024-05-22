@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(100, 100, 133);
+}
+.hero {
+background-image: url('images/young-afro-african-male-student-laying-green-grass-reading-book.png'); 
+ background-size: cover;
+background-position: start;
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
+
+.hero-content {
+max-width: 600px;
+}
+
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.5rem;
+margin-bottom: 30px;
+}
+
+.hero button {
+background-color: #007BFF;
+color: white;
+border: none;
+padding: 10px 20px;
+margin: 0 10px;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.hero button:hover {
+background-color: #0056b3;
+}
+.features {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+padding: 50px 0;
+background-color: #f8f9fa;
+}
+
+.feature-card {
+background-color: #ffffff;
+border: 1px solid #dddddd;
+border-radius: 8px;
+padding: 20px;
+width: 22%;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s;
+}
+
+.feature-card:hover {
+transform: translateY(-10px);
+}
+
+.feature-card h3 {
+font-size: 1.5rem;
+color: #007BFF;
+margin-bottom: 15px;
+}
+
+.feature-card p {
+font-size: 1rem;
+color: rgb(51, 51, 51);
+}
+
+footer {
+background-color: #2C3E50;
+color: #ffffff;
+padding: 50px 0;
+text-align: center;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.footer-section {
+flex: 1;
+margin: 20px;
+min-width: 200px;
+}
+
+.footer-section h3 {
+font-size: 1.5rem;
+margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul {
+font-size: 1rem;
+margin-bottom: 10px;
+line-height: 1.6;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+color: #007BFF;
+}
+
+.footer-section .social a {
+color: rgb(255, 255, 255);
+margin: 0 10px;
+font-size: 1.5rem;
+transition: color 0.3s;
+}
+
+.footer-section .social a:hover {
+color: #b6c4d3;
+}
+
+.footer-bottom {
+background-color: #1A252F;
+padding: 20px 0;
+margin-top: 30px;
+}
+
+.footer-bottom p {
+margin: 0;
+font-size: 0.9rem;
+}
